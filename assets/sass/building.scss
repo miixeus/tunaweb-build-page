@@ -48,6 +48,41 @@
             z-index: 2;
     
         }
+        .box {
+            top: 250px;
+            left: 320px;
+            position: absolute;
+            width: 200px;
+            height: 160px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            .inst {
+                text-shadow: 2px 4px 5px black;
+                padding: 5px;
+                font-size: 18px;
+            }
+            .inst-logo {
+                padding: 5px;
+                transition: .3s;
+                background-color: none;
+
+            }
+            .inst-logo:hover {
+                background-color: white;
+                border-radius: 50%;
+                transform: scale(1.1);
+                transition: .2s;
+
+            }
+
+                
+                
+        }
+
     }
 
 
